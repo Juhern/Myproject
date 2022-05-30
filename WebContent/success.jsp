@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8" %>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +16,7 @@
         <div class="title">
             <h1 align="center" style="color:red">注册成功！</h1>
         </div>
-
+          
         <div class="btn-wrapper">
             <a class="toRegister" href="index.jsp">返回登陆页面</a>
         </div>
