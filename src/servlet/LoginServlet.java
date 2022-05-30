@@ -23,16 +23,16 @@ public class LoginServlet extends HttpServlet {
         processRequest(request, response);
     }
 
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
-    	HttpSession session = request.getSession();
-        
+        HttpSession session = request.getSession();
+
         String name = request.getParameter("name");
         String password = request.getParameter("password");
-        String style=request.getParameter("type");
+        String style = request.getParameter("type");
         LoginMgr user = new LoginMgr();
-        int userType  = user.verifyUser(name, password,style);
+        int userType = user.verifyUser(name, password, style);
         switch (userType) {
             case -1:
                 request.getRequestDispatcher(

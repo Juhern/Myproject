@@ -1,138 +1,147 @@
 /*------------垂直居中-------*/
 html {
-  height: 95%;
+    height: 95%;
 }
+
 body {
-  background:url(http://e.hiphotos.baidu.com/zhidao/pic/item/bba1cd11728b4710ed9ab967c1cec3fdfd0323e7.jpg);
-  background-size:cover;
-  height:100%;
+    background: url(http://e.hiphotos.baidu.com/zhidao/pic/item/bba1cd11728b4710ed9ab967c1cec3fdfd0323e7.jpg);
+    background-size: cover;
+    height: 100%;
 }
+
 .wrapper {
-  height:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .form-register {
-  /*max-width: 380px;*/
-  width: 400px;
-  padding: 15px 35px 45px;
-  margin: 0 auto;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+    /*max-width: 380px;*/
+    width: 400px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.form-register .form-register-heading{
-  margin-bottom: 30px;
+
+.form-register .form-register-heading {
+    margin-bottom: 30px;
 }
 
 /*-------------控制外层----------------*/
 .form-signin {
-  /*max-width: 380px;*/
-  width: 400px;
-  padding: 15px 35px 45px;
-  margin: 0 auto;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
+    /*max-width: 380px;*/
+    width: 400px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
+
 .form-signin .form-signin-heading {
-  font-size: 30px;
-  font-weight: 500;
-  color:#444444;
-  font-weight:bold
+    font-size: 30px;
+    font-weight: 500;
+    color: #444444;
+    font-weight: bold
 }
 
 
 .form-signin .form-signin-headingl {
-  font-size: 15px;
-  font-weight: 50;
-  color:#444444;
-  font-weight:bold
+    font-size: 15px;
+    font-weight: 50;
+    color: #444444;
+    font-weight: bold
 }
 
 .form-signin .main {
-  width: 100%;
+    width: 100%;
 }
+
 .form-signin .title,
 .form-signin .main,
 .form-signin .remember-me {
-  /*margin-left: 80px;*/
+    /*margin-left: 80px;*/
 }
 
 
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
+
 .form-signin .form-input {
-  /*position: relative;*/
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  height: auto;
+    /*position: relative;*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    height: auto;
 }
 
 .form-signin .form-inputr {
-  /*position: relative;*/
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  font-size: 10px;
-  height: auto;
+    /*position: relative;*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    height: auto;
 }
 
 .form-signin .form-inputl {
-  /*position: relative;*/
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 2px;
-  font-size: 10px;
-  height: auto;
+    /*position: relative;*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    font-size: 10px;
+    height: auto;
 }
 
 
 .form-signin .form-input:focus {
-  z-index: 2;
+    z-index: 2;
 }
+
 .remember-me {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 .toRegister {
-  margin-top: 10px;
-  padding-bottom: 10px;
-  display: block;
-  font-size: 14px;
-  color: #2a6496;
-  text-decoration: none;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 14px;
+    color: #2a6496;
+    text-decoration: none;
 }
+
 .btn-wrapper {
-  text-align: center;
+    text-align: center;
 }
 
 .btn {
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-  color: #fff;
-  background-color: #3276b1;
-  border-color: #285e8e;
-  font-size: 18px;
-  border-radius: 6px;
-  border: 1px solid transparent;
-  cursor: pointer;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    cursor: pointer;
 }
 
 .radios {
-  font-size: 12px;
-  height: 12px;
-  line-height: 10px;
-  width: 40px;
+    font-size: 12px;
+    height: 12px;
+    line-height: 10px;
+    width: 40px;
 }
 
 .gender {
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

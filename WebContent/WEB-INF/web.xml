@@ -1,188 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
-	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
-	id="WebApp_ID" version="3.1">
-	<display-name>WebBasic</display-name>
-	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
-	</welcome-file-list>
-	<servlet>
-		<servlet-name>AddServlet</servlet-name>
-		<servlet-class>servlet.AddServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>AddServlet</servlet-name>
-		<url-pattern>/AddServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>RegisterServlet</servlet-name>
-		<servlet-class>servlet.RegisterServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>RegisterServlet</servlet-name>
-		<url-pattern>/RegisterServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>DeleteServlet</servlet-name>
-		<servlet-class>servlet.DeleteServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>DeleteServlet</servlet-name>
-		<url-pattern>/DeleteServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>UpdateServlet</servlet-name>
-		<servlet-class>servlet.UpdateServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>UpdateServlet</servlet-name>
-		<url-pattern>/UpdateServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>ShowServlet</servlet-name>
-		<servlet-class>servlet.ShowServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>ShowServlet</servlet-name>
-		<url-pattern>/ShowServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>ExAddServlet</servlet-name>
-		<servlet-class>servlet.ExAddServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>ExAddServlet</servlet-name>
-		<url-pattern>/ExAddServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>ExDeleteServlet</servlet-name>
-		<servlet-class>servlet.ExDeleteServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>ExDeleteServlet</servlet-name>
-		<url-pattern>/ExDeleteServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>ExUpdateServlet</servlet-name>
-		<servlet-class>servlet.ExUpdateServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>ExUpdateServlet</servlet-name>
-		<url-pattern>/ExUpdateServlet</url-pattern>
-	</servlet-mapping>
-	
-	
-	
-	<servlet>
-		<servlet-name>ExShowServlet</servlet-name>
-		<servlet-class>servlet.ExShowServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>ExShowServlet</servlet-name>
-		<url-pattern>/ExShowServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>TeAddServlet</servlet-name>
-		<servlet-class>servlet.TeAddServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>TeAddServlet</servlet-name>
-		<url-pattern>/TeAddServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>TeDeleteServlet</servlet-name>
-		<servlet-class>servlet.TeDeleteServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>TeDeleteServlet</servlet-name>
-		<url-pattern>/TeDeleteServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>TeUpdateServlet</servlet-name>
-		<servlet-class>servlet.TeUpdateServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>TeUpdateServlet</servlet-name>
-		<url-pattern>/TeUpdateServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>TeShowServlet</servlet-name>
-		<servlet-class>servlet.TeShowServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>TeShowServlet</servlet-name>
-		<url-pattern>/TeShowServlet</url-pattern>
-	</servlet-mapping>
-	
-	
-	<servlet>
-		<servlet-name>StuUpdateServlet</servlet-name>
-		<servlet-class>servlet.StuUpdateServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>StuUpdateServlet</servlet-name>
-		<url-pattern>/StuUpdateServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>StuShowServlet</servlet-name>
-		<servlet-class>servlet.StuShowServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>StuShowServlet</servlet-name>
-		<url-pattern>/StuShowServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>TeachUpdateServlet</servlet-name>
-		<servlet-class>servlet.TeachUpdateServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>TeachUpdateServlet</servlet-name>
-		<url-pattern>/TeachUpdateServlet</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>TeachShowServlet</servlet-name>
-		<servlet-class>servlet.TeachShowServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>TeachShowServlet</servlet-name>
-		<url-pattern>/TeachShowServlet</url-pattern>
-	</servlet-mapping>
-	
-	
-	<servlet>
-		<servlet-name>AdjustServlet</servlet-name>
-		<servlet-class>servlet.AdjustServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>AdjustServlet</servlet-name>
-		<url-pattern>/AdjustServlet</url-pattern>
-	</servlet-mapping>
-	
-	
-	<filter>
-		<description/>
-    	<display-name>MyFilter</display-name>
-		<filter-name>MyFilter</filter-name>
-		<filter-class>util.MyFilter</filter-class>
-	</filter>
-	<filter-mapping>
-		<filter-name>MyFilter</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         id="WebApp_ID" version="3.1">
+    <display-name>WebBasic</display-name>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>AddServlet</servlet-name>
+        <servlet-class>servlet.AddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddServlet</servlet-name>
+        <url-pattern>/AddServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteServlet</servlet-name>
+        <servlet-class>servlet.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteServlet</servlet-name>
+        <url-pattern>/DeleteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateServlet</servlet-name>
+        <servlet-class>servlet.UpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateServlet</servlet-name>
+        <url-pattern>/UpdateServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowServlet</servlet-name>
+        <servlet-class>servlet.ShowServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowServlet</servlet-name>
+        <url-pattern>/ShowServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExAddServlet</servlet-name>
+        <servlet-class>servlet.ExAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExAddServlet</servlet-name>
+        <url-pattern>/ExAddServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExDeleteServlet</servlet-name>
+        <servlet-class>servlet.ExDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExDeleteServlet</servlet-name>
+        <url-pattern>/ExDeleteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExUpdateServlet</servlet-name>
+        <servlet-class>servlet.ExUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExUpdateServlet</servlet-name>
+        <url-pattern>/ExUpdateServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ExShowServlet</servlet-name>
+        <servlet-class>servlet.ExShowServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExShowServlet</servlet-name>
+        <url-pattern>/ExShowServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeAddServlet</servlet-name>
+        <servlet-class>servlet.TeAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeAddServlet</servlet-name>
+        <url-pattern>/TeAddServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeDeleteServlet</servlet-name>
+        <servlet-class>servlet.TeDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeDeleteServlet</servlet-name>
+        <url-pattern>/TeDeleteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeUpdateServlet</servlet-name>
+        <servlet-class>servlet.TeUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeUpdateServlet</servlet-name>
+        <url-pattern>/TeUpdateServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeShowServlet</servlet-name>
+        <servlet-class>servlet.TeShowServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeShowServlet</servlet-name>
+        <url-pattern>/TeShowServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>StuUpdateServlet</servlet-name>
+        <servlet-class>servlet.StuUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StuUpdateServlet</servlet-name>
+        <url-pattern>/StuUpdateServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StuShowServlet</servlet-name>
+        <servlet-class>servlet.StuShowServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StuShowServlet</servlet-name>
+        <url-pattern>/StuShowServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeachUpdateServlet</servlet-name>
+        <servlet-class>servlet.TeachUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeachUpdateServlet</servlet-name>
+        <url-pattern>/TeachUpdateServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeachShowServlet</servlet-name>
+        <servlet-class>servlet.TeachShowServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeachShowServlet</servlet-name>
+        <url-pattern>/TeachShowServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdjustServlet</servlet-name>
+        <servlet-class>servlet.AdjustServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdjustServlet</servlet-name>
+        <url-pattern>/AdjustServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <filter>
+        <description/>
+        <display-name>MyFilter</display-name>
+        <filter-name>MyFilter</filter-name>
+        <filter-class>util.MyFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>MyFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 </web-app>

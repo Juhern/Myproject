@@ -11,23 +11,23 @@ import javax.servlet.http.HttpServletResponse;
 import dao.TeacherDao;
 import entity.Teacher;
 
-public class TeachShowServlet extends HttpServlet{
+public class TeachShowServlet extends HttpServlet {
 
-	private static final long serialVersionUID = 1L;
-	 
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		req.setCharacterEncoding("UTF-8");
-		resp.setCharacterEncoding("UTF-8");
-		this.doPost(req, resp);
-	}
- 
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
-		req.setCharacterEncoding("UTF-8");
-		resp.setCharacterEncoding("UTF-8");
-		TeacherDao dao = new TeacherDao();
-		List<Teacher> list = dao.getallTeachers();
-		req.setAttribute("list", list);
-		req.getRequestDispatcher("teacher/teacher_user_index.jsp").forward(req, resp);
-	}
+    private static final long serialVersionUID = 1L;
+
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("UTF-8");
+        resp.setCharacterEncoding("UTF-8");
+        this.doPost(req, resp);
+    }
+
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        req.setCharacterEncoding("UTF-8");
+        resp.setCharacterEncoding("UTF-8");
+        TeacherDao dao = new TeacherDao();
+        List<Teacher> list = dao.getallTeachers();
+        req.setAttribute("list", list);
+        req.getRequestDispatcher("teacher/teacher_user_index.jsp").forward(req, resp);
+    }
 }
